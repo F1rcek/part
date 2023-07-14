@@ -1,0 +1,14 @@
+<div class="main main-news main-gallery">
+       <h2>ФОТОГАЛЕРЕЯ ИЗ ЖИЗНИ НАШЕГО КЛУБА</h2>
+       <div class="gallery-wrapper">
+        <a href="img/gallery/gl1.jpg" data-fancybox="gallery"><img src="img/gallery/gl1.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl2.jpg" data-fancybox="gallery"><img src="img/gallery/gl2.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl3.jpg" data-fancybox="gallery"><img src="img/gallery/gl3.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl4.jpg" data-fancybox="gallery"><img src="img/gallery/gl4.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl5.jpg" data-fancybox="gallery"><img src="img/gallery/gl5.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl6.jpg" data-fancybox="gallery"><img src="img/gallery/gl6.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl7.jpg" data-fancybox="gallery"><img src="img/gallery/gl7.jpg" class="gallery-photo_sm ibg" alt=""></a>
+        <a href="img/gallery/gl8.jpg" data-fancybox="gallery"><img src="img/gallery/gl8.jpg" class="gallery-photo_sm ibg" alt=""></a>
+       </div>
+       <div class="btn-more"></div>
+    </div>

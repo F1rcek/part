@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.lk{
+  padding-left: 225px;
+  font-family: 'Montserrat'
+}
+.ava{
+  width: 200px;
+  height: 200px;
+  padding-left: 220px;
+  margin-top: 20px;
+}
+.name{
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  font-family: 'Montserrat'
+}
+@font-face {
+    font-family: "Jasper"; 
+    src: url("font/Jasper.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    @font-face {
+        font-family: "GIN_Regular"; 
+        src: url("font/GIN_Regular.otf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
+.nav-menu{
+    width: 900px;
+    height: 120px;
+    margin-left: calc(50% - 450px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.nav-menu__item{
+    font-size: 50px;
+    padding-left: 62px;
+    padding-right: 62px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: "Jasper"; 
+}
+.nav-menu__item:hover{
+    color: #f8d623;
+}
+.logo{
+    background-color: #f8d623;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+.logo:hover{
+    color: #f8d623;
+    background-color:black;
+}
+.wrapper-content{
+    width: 900px;
+    margin-left: calc(50% - 450px);
+}
+.wrapper-content__block{
+    width: 100%;
+    height: 450px;
+    background-color: #f8d623;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.wrapper-content__block h1{
+    font-family: "Jasper"; 
+    font-size:80px;
+    padding-bottom: -105px;
+    transition: 0.3s;
+}
+.wrapper-content__block h2{
+    font-family: "GIN_Regular"; 
+    font-size: 20px;
+    margin-top: -70px;
+    transition: 0.3s;
+}
+.hover__content:hover{
+    background-color: #f85f23;
+}
+.hover__content:hover h1{
+    color: white;
+}
+.hover__content:hover h2{
+    color: white;
+}
+.margin__beetwen_block{
+    margin-top: 20px;
+}
+.img__block1{
+    background-image: url(img/image/back2.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+.img__block2{
+    background-image: url(img/image/back3.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+.img__block3{
+    background-image: url(img/image/back4.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+.img__block4{
+    background-image: url(img/image/back5.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.text-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "GIN_Regular";
+    font-size: 10px;
+    cursor:pointer;
+}
+.text-part h1{
+    transition: 0.3s;
+}
+.text-part:hover h1{
+    color:  #f85f23;
+}
+li{
+    list-style: none;
+}
+.list-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.list-category li{
+    font-family: "GIN_Regular"; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.list-category li:hover{
+    color:  #f85f23;
+}
+.wrapper-category__item{
+    width: 100%;
+    
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.category-item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+.category-item__big-img{
+    width:200px;
+}
+.preview-photo_item{
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+}
+.category-item__little-img{
+    width: 50px;
+    opacity:0;
+    transition: 0.6s;
+    margin-top: -10px;
+}
+
+.category-item:hover .category-item__little-img {
+    opacity: 1;
+}
